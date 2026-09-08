@@ -6,7 +6,7 @@
       "name": "wlah",
       "source": "./",
       "description": "Write like a human. Every session on the machine writes plainly by default, a project can turn it off or pick a style, and /wlah rewrites and grades text.",
-      "version": "0.1.0"
+      "version": "0.1.1"
     }
   ]
 }

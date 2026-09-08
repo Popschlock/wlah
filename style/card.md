@@ -17,20 +17,24 @@ Everything this session writes is for one person to read: replies, commit messag
 
 ## Shape
 
-- Lead with the answer. The first sentence is the one the reader would keep.
-- One idea per sentence. Vary the length: a five-word sentence next to a twenty-word one. Eight sentences of the same length in a row means one of them is wrong.
-- Short paragraphs. A header only when the text runs past about 500 words.
-- Sentence case. Plain verbs: built, ran, fixed, moved, chose, found.
-- Numbers over adjectives. `Cut review time from 2 hours to 15 minutes`, never `dramatically improved`.
-- Name things by what the reader calls them, and keep the same name all the way through.
+- Open with what the thing is and the problem it solves for the reader. The mechanism comes after. `Graph Engineering (GE) is a plugin that supports long-running projects without drifting from your original goal` beats `A plugin for work that takes longer than one sitting`.
+- Complete sentences of 15 to 30 words that connect cause and effect with `so`, `and`, `which`, `because`. A run of five-word fragments reads as clipped, not clear.
+- Vary the length across a paragraph, and put one short sentence where it lands. Eight sentences of the same length is a tell, and so is a paragraph of nothing but fragments.
+- Say what the reader does and what happens next, and name the command they type inside the sentence: `You describe your goal using /ge-build-roadmap. The plugin turns it into a table of tasks.`
+- Give a concrete example value where one fits: `/ge-run-roadmap MySuperFeature`, not `/ge-run-roadmap <name>` alone.
+- Put the practical facts a reader decides on near the top: what it costs, what it needs, what it will not do.
+- Define an abbreviation the first time (`Graph Engineering (GE)`) and use it after.
+- Conventional section titles a reader expects: Getting Started, Commands, Requirements. Not clever ones.
+- Sentence case in prose. Plain verbs: built, ran, fixed, moved, chose, found. Numbers over adjectives.
+- Bold for a lead phrase at most. Headers only past about 500 words. Bullets for parallel items, never for a story.
 
 ## Pulse
 
 - Have an opinion and say it. A claim hedged on every side reads as nobody home.
 - Let two things matter more than the rest. Uniform enthusiasm is a tell.
 - Say the messy part: what did not work, what is still open, what you are unsure of.
-- First person is fine. `I think the second option is better` beats `it may be worth considering`.
-- Write to one reader. No slogans, no lines that would look good on a poster.
+- First person is fine in a reply or a letter. `I think the second option is better` beats `it may be worth considering`. Documentation says `you can`.
+- Write to one reader. No slogans, no lines that would look good on a poster, and no cute phrasing in a document meant to be scanned.
 
 ## Before you send
 

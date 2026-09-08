@@ -80,7 +80,7 @@ PATTERNS = [
     (r",\s*(ensuring|highlighting|underscoring|reflecting|demonstrating|showcasing|enabling|allowing|"
      r"resulting|driving|leading|delivering|supporting|contributing|fostering|paving)\b[^.!?]*[.!?]",
      "participial tail (a sentence that trails into ', -ing ...')", False),
-    (r"\b(\w+), (\w+),? and (\w+)\b(?![^.!?]*\d)", "three single words in a row for rhythm", False),
+    (r"(?<!, )\b(\w+), (\w+),? and (\w+)\b(?![^.!?]*\d)", "three single words in a row for rhythm", False),  # a fourth item before them is a real list
     (r"\bwhile\b[^.!?]{1,60},\s*(ultimately|in the end)\b", "hedge then claim ('while X, ultimately Y')", False),
     (r"^(In|As|With|Given|Whether|When it comes to)\b[^.!?]{0,80},\s", "front-loaded opener", True),
     (r"^(Significantly|Dramatically|Effectively|Successfully|Efficiently|Proactively) \w+ed\b",

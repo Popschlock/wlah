@@ -52,6 +52,20 @@ The label bullet.
 Before: `- **Performance:** the new index cut query time in half.`
 After: `- The new index cut query time in half.`
 
+## Documentation
+
+The tells above are half of it. A README with none of them can still be wrong for the reader, and the owner's own rewrite of one shows the difference. First, mine:
+
+> A Claude Code plugin for work that takes longer than one sitting. You write the goal. It becomes an ordered list of tasks. One Claude session then works through them on its own, a second subagent checks each finished task, and you watch it on a page that updates as it goes.
+
+Then his:
+
+> Graph Engineering (GE) is a plugin that supports long-running, large projects, without drifting from your original goal or getting lost. This works on subscription plans and keeps the main orchestrator context very small via task statuses only, so it can run for many days straight without auto-compacting context or getting lost.
+
+What changed. He names the thing and says what problem it solves before saying how it works. He writes whole sentences that join cause to effect with `so` and `and` instead of fragments. He puts the facts a reader decides on (works on a subscription, context stays small, runs for days) in the second sentence, where I had them under Requirements. Later he names the command the reader types inside the explanation, with a real example value, where I had moved every command to a table. And his section titles are the ones a reader expects: Getting Started, Plugin Terms.
+
+So, for anything meant to be read as documentation: what it is and why first, complete sentences, commands named where they are used, an example value, conventional headings. Save the short punchy sentence for the one place it lands.
+
 ## Rhythm
 
 Machines write sentences of the same length. People do not. The checker measures how much sentence lengths vary across the piece, and eight or more sentences with almost no variation is a finding on its own. The fix is one short sentence per paragraph. Five words. Then a long one that carries the detail the short one set up.
