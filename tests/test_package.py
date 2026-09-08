@@ -6,7 +6,7 @@ def test_both_manifests_carry_the_same_version():
     plugin = json.loads((ROOT / ".claude-plugin" / "plugin.json").read_text(encoding="utf-8"))
     market = json.loads((ROOT / ".claude-plugin" / "marketplace.json").read_text(encoding="utf-8"))
     entries = market["plugins"]
-    assert len(entries) == 1 and entries[0]["version"] == plugin["version"] == "0.1.1"
+    assert len(entries) == 1 and entries[0]["version"] == plugin["version"] == "0.1.2"
     assert entries[0]["description"] == plugin["description"]
 
 def test_the_shipped_tree_is_complete():

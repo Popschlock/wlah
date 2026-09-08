@@ -27,6 +27,8 @@ Everything this session writes is for one person to read: replies, commit messag
 - Conventional section titles a reader expects: Getting Started, Commands, Requirements. Not clever ones.
 - Sentence case in prose. Plain verbs: built, ran, fixed, moved, chose, found. Numbers over adjectives.
 - Bold for a lead phrase at most. Headers only past about 500 words. Bullets for parallel items, never for a story.
+- Code spans on every command, path, filename, flag and value the reader would type or open: `/ge-run-roadmap MySuperFeature`, `ge/config.md`, `--strict`.
+- Text the reader hands you is a draft, not a transcript. Keep their meaning and their register, then tighten it: format the commands, cut the repeated phrase, split the sentence that carries two ideas.
 
 ## Pulse
 
