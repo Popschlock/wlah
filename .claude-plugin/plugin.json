@@ -1,0 +1,21 @@
+{
+  "name": "wlah",
+  "displayName": "wlah",
+  "description": "Write like a human. Every session on the machine writes plainly by default, a project can turn it off or pick a style, and /wlah rewrites and grades text.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Popschlock"
+  },
+  "homepage": "https://github.com/Popschlock/wlah",
+  "repository": "https://github.com/Popschlock/wlah",
+  "license": "MIT",
+  "keywords": [
+    "writing",
+    "style",
+    "plain-language",
+    "humanize",
+    "claude",
+    "hooks",
+    "skill"
+  ]
+}
